@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+#Sample IPFS & ERC721 Integration Using Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project provides a basic implementation of the ERC721 standard using the Hardhat development environment. The ERC721 NFT holds the links to the IPFS hosted data
 
-Try running some of the following tasks:
+It generates an ERC721 NonFunToken collection which is deployed on the Goerli testnet: https://goerli.etherscan.io/address/0x131060b1a88eebb934fd427c114acdc819c68d40
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The full guide can be found on Medium: 
